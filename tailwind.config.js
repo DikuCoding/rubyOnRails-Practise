@@ -4,5 +4,19 @@ module.exports = {
     './app/helpers/**/*.rb',
     './app/assets/stylesheets/**/*.css',
     './app/javascript/**/*.js'
-  ]
+  ],
+  theme: {
+    extend: {},
+    'fontFamily': {
+      'open-sans': ['Open Sans', 'sans-serif'],
+      'dosis': ['Dosis', 'sans-serif'],
+      'pacifico': ['Pacifico', 'sans-serif']
+    },
+    'colors': {
+    'primary': {
+      500: '#337ab7'
+    }
+  }
+  },
+  plugins: [],
 }
